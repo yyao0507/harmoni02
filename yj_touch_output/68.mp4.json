@@ -1,0 +1,1479 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "second": 0.0,
+      "touch_occurred": false
+    },
+    {
+      "frame": 10,
+      "second": 1.022362360027146,
+      "touch_occurred": false
+    },
+    {
+      "frame": 20,
+      "second": 2.044724720054292,
+      "touch_occurred": false
+    },
+    {
+      "frame": 30,
+      "second": 3.0670870800814387,
+      "touch_occurred": false
+    },
+    {
+      "frame": 40,
+      "second": 4.089449440108584,
+      "touch_occurred": false
+    },
+    {
+      "frame": 50,
+      "second": 5.111811800135731,
+      "touch_occurred": false
+    },
+    {
+      "frame": 60,
+      "second": 6.134174160162877,
+      "touch_occurred": false
+    },
+    {
+      "frame": 70,
+      "second": 7.1565365201900235,
+      "touch_occurred": false
+    },
+    {
+      "frame": 80,
+      "second": 8.178898880217169,
+      "touch_occurred": false
+    },
+    {
+      "frame": 90,
+      "second": 9.201261240244316,
+      "touch_occurred": false
+    },
+    {
+      "frame": 100,
+      "second": 10.223623600271463,
+      "touch_occurred": false
+    },
+    {
+      "frame": 110,
+      "second": 11.245985960298608,
+      "touch_occurred": false
+    },
+    {
+      "frame": 120,
+      "second": 12.268348320325755,
+      "touch_occurred": false
+    },
+    {
+      "frame": 130,
+      "second": 13.2907106803529,
+      "touch_occurred": false
+    },
+    {
+      "frame": 140,
+      "second": 14.313073040380047,
+      "touch_occurred": false
+    },
+    {
+      "frame": 150,
+      "second": 15.335435400407192,
+      "touch_occurred": false
+    },
+    {
+      "frame": 160,
+      "second": 16.357797760434337,
+      "touch_occurred": false
+    },
+    {
+      "frame": 170,
+      "second": 17.380160120461486,
+      "touch_occurred": false
+    },
+    {
+      "frame": 180,
+      "second": 18.40252248048863,
+      "touch_occurred": false
+    },
+    {
+      "frame": 190,
+      "second": 19.424884840515777,
+      "touch_occurred": false
+    },
+    {
+      "frame": 200,
+      "second": 20.447247200542925,
+      "touch_occurred": false
+    },
+    {
+      "frame": 210,
+      "second": 21.46960956057007,
+      "touch_occurred": false
+    },
+    {
+      "frame": 220,
+      "second": 22.491971920597216,
+      "touch_occurred": false
+    },
+    {
+      "frame": 230,
+      "second": 23.51433428062436,
+      "touch_occurred": false
+    },
+    {
+      "frame": 240,
+      "second": 24.53669664065151,
+      "touch_occurred": false
+    },
+    {
+      "frame": 250,
+      "second": 25.559059000678655,
+      "touch_occurred": false
+    },
+    {
+      "frame": 260,
+      "second": 26.5814213607058,
+      "touch_occurred": false
+    },
+    {
+      "frame": 270,
+      "second": 27.603783720732945,
+      "touch_occurred": false
+    },
+    {
+      "frame": 280,
+      "second": 28.626146080760094,
+      "touch_occurred": false
+    },
+    {
+      "frame": 290,
+      "second": 29.64850844078724,
+      "touch_occurred": false
+    },
+    {
+      "frame": 300,
+      "second": 30.670870800814384,
+      "touch_occurred": false
+    },
+    {
+      "frame": 310,
+      "second": 31.693233160841533,
+      "touch_occurred": false
+    },
+    {
+      "frame": 320,
+      "second": 32.715595520868675,
+      "touch_occurred": false
+    },
+    {
+      "frame": 330,
+      "second": 33.73795788089583,
+      "touch_occurred": false
+    },
+    {
+      "frame": 340,
+      "second": 34.76032024092297,
+      "touch_occurred": false
+    },
+    {
+      "frame": 350,
+      "second": 35.78268260095012,
+      "touch_occurred": false
+    },
+    {
+      "frame": 360,
+      "second": 36.80504496097726,
+      "touch_occurred": false
+    },
+    {
+      "frame": 370,
+      "second": 37.82740732100441,
+      "touch_occurred": false
+    },
+    {
+      "frame": 380,
+      "second": 38.84976968103155,
+      "touch_occurred": false
+    },
+    {
+      "frame": 390,
+      "second": 39.8721320410587,
+      "touch_occurred": false
+    },
+    {
+      "frame": 400,
+      "second": 40.89449440108585,
+      "touch_occurred": false
+    },
+    {
+      "frame": 410,
+      "second": 41.916856761112996,
+      "touch_occurred": false
+    },
+    {
+      "frame": 420,
+      "second": 42.93921912114014,
+      "touch_occurred": false
+    },
+    {
+      "frame": 430,
+      "second": 43.961581481167286,
+      "touch_occurred": false
+    },
+    {
+      "frame": 440,
+      "second": 44.98394384119443,
+      "touch_occurred": false
+    },
+    {
+      "frame": 450,
+      "second": 46.00630620122158,
+      "touch_occurred": false
+    },
+    {
+      "frame": 460,
+      "second": 47.02866856124872,
+      "touch_occurred": false
+    },
+    {
+      "frame": 470,
+      "second": 48.05103092127587,
+      "touch_occurred": false
+    },
+    {
+      "frame": 480,
+      "second": 49.07339328130302,
+      "touch_occurred": false
+    },
+    {
+      "frame": 490,
+      "second": 50.095755641330165,
+      "touch_occurred": false
+    },
+    {
+      "frame": 500,
+      "second": 51.11811800135731,
+      "touch_occurred": false
+    },
+    {
+      "frame": 510,
+      "second": 52.140480361384455,
+      "touch_occurred": false
+    },
+    {
+      "frame": 520,
+      "second": 53.1628427214116,
+      "touch_occurred": false
+    },
+    {
+      "frame": 530,
+      "second": 54.185205081438745,
+      "touch_occurred": false
+    },
+    {
+      "frame": 540,
+      "second": 55.20756744146589,
+      "touch_occurred": false
+    },
+    {
+      "frame": 550,
+      "second": 56.22992980149304,
+      "touch_occurred": false
+    },
+    {
+      "frame": 560,
+      "second": 57.25229216152019,
+      "touch_occurred": false
+    },
+    {
+      "frame": 570,
+      "second": 58.27465452154733,
+      "touch_occurred": false
+    },
+    {
+      "frame": 580,
+      "second": 59.29701688157448,
+      "touch_occurred": false
+    },
+    {
+      "frame": 590,
+      "second": 60.319379241601624,
+      "touch_occurred": false
+    },
+    {
+      "frame": 600,
+      "second": 61.34174160162877,
+      "touch_occurred": false
+    },
+    {
+      "frame": 610,
+      "second": 62.364103961655914,
+      "touch_occurred": false
+    },
+    {
+      "frame": 620,
+      "second": 63.386466321683066,
+      "touch_occurred": false
+    },
+    {
+      "frame": 630,
+      "second": 64.4088286817102,
+      "touch_occurred": false
+    },
+    {
+      "frame": 640,
+      "second": 65.43119104173735,
+      "touch_occurred": false
+    },
+    {
+      "frame": 650,
+      "second": 66.4535534017645,
+      "touch_occurred": false
+    },
+    {
+      "frame": 660,
+      "second": 67.47591576179165,
+      "touch_occurred": false
+    },
+    {
+      "frame": 670,
+      "second": 68.4982781218188,
+      "touch_occurred": false
+    },
+    {
+      "frame": 680,
+      "second": 69.52064048184594,
+      "touch_occurred": false
+    },
+    {
+      "frame": 690,
+      "second": 70.54300284187309,
+      "touch_occurred": false
+    },
+    {
+      "frame": 700,
+      "second": 71.56536520190024,
+      "touch_occurred": false
+    },
+    {
+      "frame": 710,
+      "second": 72.58772756192738,
+      "touch_occurred": false
+    },
+    {
+      "frame": 720,
+      "second": 73.61008992195453,
+      "touch_occurred": false
+    },
+    {
+      "frame": 730,
+      "second": 74.63245228198167,
+      "touch_occurred": false
+    },
+    {
+      "frame": 740,
+      "second": 75.65481464200882,
+      "touch_occurred": false
+    },
+    {
+      "frame": 750,
+      "second": 76.67717700203596,
+      "touch_occurred": false
+    },
+    {
+      "frame": 760,
+      "second": 77.6995393620631,
+      "touch_occurred": false
+    },
+    {
+      "frame": 770,
+      "second": 78.72190172209025,
+      "touch_occurred": false
+    },
+    {
+      "frame": 780,
+      "second": 79.7442640821174,
+      "touch_occurred": false
+    },
+    {
+      "frame": 790,
+      "second": 80.76662644214454,
+      "touch_occurred": false
+    },
+    {
+      "frame": 800,
+      "second": 81.7889888021717,
+      "touch_occurred": false
+    },
+    {
+      "frame": 810,
+      "second": 82.81135116219885,
+      "touch_occurred": false
+    },
+    {
+      "frame": 820,
+      "second": 83.83371352222599,
+      "touch_occurred": false
+    },
+    {
+      "frame": 830,
+      "second": 84.85607588225314,
+      "touch_occurred": false
+    },
+    {
+      "frame": 840,
+      "second": 85.87843824228028,
+      "touch_occurred": false
+    },
+    {
+      "frame": 850,
+      "second": 86.90080060230743,
+      "touch_occurred": false
+    },
+    {
+      "frame": 860,
+      "second": 87.92316296233457,
+      "touch_occurred": false
+    },
+    {
+      "frame": 870,
+      "second": 88.94552532236172,
+      "touch_occurred": false
+    },
+    {
+      "frame": 880,
+      "second": 89.96788768238886,
+      "touch_occurred": false
+    },
+    {
+      "frame": 890,
+      "second": 90.99025004241601,
+      "touch_occurred": false
+    },
+    {
+      "frame": 900,
+      "second": 92.01261240244315,
+      "touch_occurred": false
+    },
+    {
+      "frame": 910,
+      "second": 93.0349747624703,
+      "touch_occurred": false
+    },
+    {
+      "frame": 920,
+      "second": 94.05733712249744,
+      "touch_occurred": false
+    },
+    {
+      "frame": 930,
+      "second": 95.07969948252459,
+      "touch_occurred": false
+    },
+    {
+      "frame": 940,
+      "second": 96.10206184255173,
+      "touch_occurred": false
+    },
+    {
+      "frame": 950,
+      "second": 97.1244242025789,
+      "touch_occurred": false
+    },
+    {
+      "frame": 960,
+      "second": 98.14678656260604,
+      "touch_occurred": false
+    },
+    {
+      "frame": 970,
+      "second": 99.16914892263318,
+      "touch_occurred": false
+    },
+    {
+      "frame": 980,
+      "second": 100.19151128266033,
+      "touch_occurred": false
+    },
+    {
+      "frame": 990,
+      "second": 101.21387364268747,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1000,
+      "second": 102.23623600271462,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1010,
+      "second": 103.25859836274176,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1020,
+      "second": 104.28096072276891,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1030,
+      "second": 105.30332308279606,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1040,
+      "second": 106.3256854428232,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1050,
+      "second": 107.34804780285035,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1060,
+      "second": 108.37041016287749,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1070,
+      "second": 109.39277252290464,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1080,
+      "second": 110.41513488293178,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1090,
+      "second": 111.43749724295894,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1100,
+      "second": 112.45985960298609,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1110,
+      "second": 113.48222196301323,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1120,
+      "second": 114.50458432304038,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1130,
+      "second": 115.52694668306752,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1140,
+      "second": 116.54930904309467,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1150,
+      "second": 117.57167140312181,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1160,
+      "second": 118.59403376314896,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1170,
+      "second": 119.6163961231761,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1180,
+      "second": 120.63875848320325,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1190,
+      "second": 121.66112084323039,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1200,
+      "second": 122.68348320325754,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1210,
+      "second": 123.70584556328468,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1220,
+      "second": 124.72820792331183,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1230,
+      "second": 125.75057028333897,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1240,
+      "second": 126.77293264336613,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1250,
+      "second": 127.79529500339328,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1260,
+      "second": 128.8176573634204,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1270,
+      "second": 129.84001972344757,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1280,
+      "second": 130.8623820834747,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1290,
+      "second": 131.88474444350186,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1300,
+      "second": 132.907106803529,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1310,
+      "second": 133.92946916355615,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1320,
+      "second": 134.9518315235833,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1330,
+      "second": 135.97419388361044,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1340,
+      "second": 136.9965562436376,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1350,
+      "second": 138.01891860366473,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1360,
+      "second": 139.0412809636919,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1370,
+      "second": 140.06364332371902,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1380,
+      "second": 141.08600568374618,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1390,
+      "second": 142.1083680437733,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1400,
+      "second": 143.13073040380047,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1410,
+      "second": 144.1530927638276,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1420,
+      "second": 145.17545512385476,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1430,
+      "second": 146.1978174838819,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1440,
+      "second": 147.22017984390905,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1450,
+      "second": 148.2425422039362,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1460,
+      "second": 149.26490456396334,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1470,
+      "second": 150.2872669239905,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1480,
+      "second": 151.30962928401763,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1490,
+      "second": 152.3319916440448,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1500,
+      "second": 153.35435400407192,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1510,
+      "second": 154.37671636409908,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1520,
+      "second": 155.3990787241262,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1530,
+      "second": 156.42144108415337,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1540,
+      "second": 157.4438034441805,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1550,
+      "second": 158.46616580420766,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1560,
+      "second": 159.4885281642348,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1570,
+      "second": 160.51089052426195,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1580,
+      "second": 161.53325288428908,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1590,
+      "second": 162.55561524431624,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1600,
+      "second": 163.5779776043434,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1610,
+      "second": 164.60033996437053,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1620,
+      "second": 165.6227023243977,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1630,
+      "second": 166.64506468442482,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1640,
+      "second": 167.66742704445198,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1650,
+      "second": 168.68978940447911,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1660,
+      "second": 169.71215176450627,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1670,
+      "second": 170.7345141245334,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1680,
+      "second": 171.75687648456056,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1690,
+      "second": 172.7792388445877,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1700,
+      "second": 173.80160120461485,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1710,
+      "second": 174.82396356464199,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1720,
+      "second": 175.84632592466915,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1730,
+      "second": 176.86868828469628,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1740,
+      "second": 177.89105064472344,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1750,
+      "second": 178.9134130047506,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1760,
+      "second": 179.93577536477773,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1770,
+      "second": 180.95813772480489,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1780,
+      "second": 181.98050008483202,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1790,
+      "second": 183.00286244485918,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1800,
+      "second": 184.0252248048863,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1810,
+      "second": 185.04758716491347,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1820,
+      "second": 186.0699495249406,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1830,
+      "second": 187.09231188496776,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1840,
+      "second": 188.1146742449949,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1850,
+      "second": 189.13703660502205,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1860,
+      "second": 190.15939896504918,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1870,
+      "second": 191.18176132507634,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1880,
+      "second": 192.20412368510347,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1890,
+      "second": 193.22648604513063,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1900,
+      "second": 194.2488484051578,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1910,
+      "second": 195.27121076518492,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1920,
+      "second": 196.29357312521208,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1930,
+      "second": 197.3159354852392,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1940,
+      "second": 198.33829784526637,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1950,
+      "second": 199.3606602052935,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1960,
+      "second": 200.38302256532066,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1970,
+      "second": 201.4053849253478,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1980,
+      "second": 202.42774728537495,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1990,
+      "second": 203.45010964540208,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2000,
+      "second": 204.47247200542924,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2010,
+      "second": 205.49483436545637,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2020,
+      "second": 206.51719672548353,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2030,
+      "second": 207.5395590855107,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2040,
+      "second": 208.56192144553782,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2050,
+      "second": 209.58428380556498,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2060,
+      "second": 210.6066461655921,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2070,
+      "second": 211.62900852561927,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2080,
+      "second": 212.6513708856464,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2090,
+      "second": 213.67373324567356,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2100,
+      "second": 214.6960956057007,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2110,
+      "second": 215.71845796572785,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2120,
+      "second": 216.74082032575498,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2130,
+      "second": 217.76318268578214,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2140,
+      "second": 218.78554504580927,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2150,
+      "second": 219.80790740583643,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2160,
+      "second": 220.83026976586356,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2170,
+      "second": 221.85263212589072,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2180,
+      "second": 222.87499448591788,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2190,
+      "second": 223.897356845945,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2200,
+      "second": 224.91971920597217,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2210,
+      "second": 225.9420815659993,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2220,
+      "second": 226.96444392602646,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2230,
+      "second": 227.9868062860536,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2240,
+      "second": 229.00916864608075,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2250,
+      "second": 230.03153100610788,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2260,
+      "second": 231.05389336613504,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2270,
+      "second": 232.07625572616217,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2280,
+      "second": 233.09861808618933,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2290,
+      "second": 234.12098044621646,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2300,
+      "second": 235.14334280624362,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2310,
+      "second": 236.16570516627075,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2320,
+      "second": 237.1880675262979,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2330,
+      "second": 238.21042988632507,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2340,
+      "second": 239.2327922463522,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2350,
+      "second": 240.25515460637936,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2360,
+      "second": 241.2775169664065,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2370,
+      "second": 242.29987932643365,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2380,
+      "second": 243.32224168646079,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2390,
+      "second": 244.34460404648794,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2400,
+      "second": 245.36696640651508,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2410,
+      "second": 246.38932876654223,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2420,
+      "second": 247.41169112656937,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2430,
+      "second": 248.43405348659653,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2440,
+      "second": 249.45641584662366,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2450,
+      "second": 250.47877820665082,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2460,
+      "second": 251.50114056667795,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2470,
+      "second": 252.5235029267051,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2480,
+      "second": 253.54586528673227,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2490,
+      "second": 254.5682276467594,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2500,
+      "second": 255.59059000678656,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2510,
+      "second": 256.6129523668137,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2520,
+      "second": 257.6353147268408,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2530,
+      "second": 258.657677086868,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2540,
+      "second": 259.68003944689514,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2550,
+      "second": 260.7024018069223,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2560,
+      "second": 261.7247641669494,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2570,
+      "second": 262.74712652697656,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2580,
+      "second": 263.7694888870037,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2590,
+      "second": 264.7918512470309,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2600,
+      "second": 265.814213607058,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2610,
+      "second": 266.83657596708514,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2620,
+      "second": 267.8589383271123,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2630,
+      "second": 268.88130068713946,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2640,
+      "second": 269.9036630471666,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2650,
+      "second": 270.9260254071937,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2660,
+      "second": 271.9483877672209,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2670,
+      "second": 272.97075012724804,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2680,
+      "second": 273.9931124872752,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2690,
+      "second": 275.0154748473023,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2700,
+      "second": 276.03783720732946,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2710,
+      "second": 277.0601995673566,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2720,
+      "second": 278.0825619273838,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2730,
+      "second": 279.1049242874109,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2740,
+      "second": 280.12728664743804,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2750,
+      "second": 281.1496490074652,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2760,
+      "second": 282.17201136749236,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2770,
+      "second": 283.1943737275195,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2780,
+      "second": 284.2167360875466,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2790,
+      "second": 285.2390984475738,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2800,
+      "second": 286.26146080760094,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2810,
+      "second": 287.2838231676281,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2820,
+      "second": 288.3061855276552,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2830,
+      "second": 289.32854788768236,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2840,
+      "second": 290.3509102477095,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2850,
+      "second": 291.3732726077367,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2860,
+      "second": 292.3956349677638,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2870,
+      "second": 293.41799732779094,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2880,
+      "second": 294.4403596878181,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2890,
+      "second": 295.46272204784526,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2900,
+      "second": 296.4850844078724,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2910,
+      "second": 297.5074467678995,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2920,
+      "second": 298.5298091279267,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2930,
+      "second": 299.55217148795384,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2940,
+      "second": 300.574533847981,
+      "touch_occurred": false
+    }
+  ]
+}

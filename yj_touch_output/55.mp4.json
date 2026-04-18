@@ -1,0 +1,1200 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "touch_occurred": false
+    },
+    {
+      "frame": 10,
+      "touch_occurred": false
+    },
+    {
+      "frame": 20,
+      "touch_occurred": false
+    },
+    {
+      "frame": 30,
+      "touch_occurred": false
+    },
+    {
+      "frame": 40,
+      "touch_occurred": false
+    },
+    {
+      "frame": 50,
+      "touch_occurred": false
+    },
+    {
+      "frame": 60,
+      "touch_occurred": false
+    },
+    {
+      "frame": 70,
+      "touch_occurred": false
+    },
+    {
+      "frame": 80,
+      "touch_occurred": false
+    },
+    {
+      "frame": 90,
+      "touch_occurred": false
+    },
+    {
+      "frame": 100,
+      "touch_occurred": false
+    },
+    {
+      "frame": 110,
+      "touch_occurred": false
+    },
+    {
+      "frame": 120,
+      "touch_occurred": false
+    },
+    {
+      "frame": 130,
+      "touch_occurred": false
+    },
+    {
+      "frame": 140,
+      "touch_occurred": false
+    },
+    {
+      "frame": 150,
+      "touch_occurred": false
+    },
+    {
+      "frame": 160,
+      "touch_occurred": false
+    },
+    {
+      "frame": 170,
+      "touch_occurred": false
+    },
+    {
+      "frame": 180,
+      "touch_occurred": false
+    },
+    {
+      "frame": 190,
+      "touch_occurred": false
+    },
+    {
+      "frame": 200,
+      "touch_occurred": false
+    },
+    {
+      "frame": 210,
+      "touch_occurred": false
+    },
+    {
+      "frame": 220,
+      "touch_occurred": false
+    },
+    {
+      "frame": 230,
+      "touch_occurred": false
+    },
+    {
+      "frame": 240,
+      "touch_occurred": false
+    },
+    {
+      "frame": 250,
+      "touch_occurred": false
+    },
+    {
+      "frame": 260,
+      "touch_occurred": true
+    },
+    {
+      "frame": 270,
+      "touch_occurred": true
+    },
+    {
+      "frame": 280,
+      "touch_occurred": true
+    },
+    {
+      "frame": 290,
+      "touch_occurred": false
+    },
+    {
+      "frame": 300,
+      "touch_occurred": true
+    },
+    {
+      "frame": 310,
+      "touch_occurred": false
+    },
+    {
+      "frame": 320,
+      "touch_occurred": false
+    },
+    {
+      "frame": 330,
+      "touch_occurred": false
+    },
+    {
+      "frame": 340,
+      "touch_occurred": false
+    },
+    {
+      "frame": 350,
+      "touch_occurred": false
+    },
+    {
+      "frame": 360,
+      "touch_occurred": false
+    },
+    {
+      "frame": 370,
+      "touch_occurred": false
+    },
+    {
+      "frame": 380,
+      "touch_occurred": false
+    },
+    {
+      "frame": 390,
+      "touch_occurred": false
+    },
+    {
+      "frame": 400,
+      "touch_occurred": false
+    },
+    {
+      "frame": 410,
+      "touch_occurred": false
+    },
+    {
+      "frame": 420,
+      "touch_occurred": false
+    },
+    {
+      "frame": 430,
+      "touch_occurred": false
+    },
+    {
+      "frame": 440,
+      "touch_occurred": false
+    },
+    {
+      "frame": 450,
+      "touch_occurred": false
+    },
+    {
+      "frame": 460,
+      "touch_occurred": false
+    },
+    {
+      "frame": 470,
+      "touch_occurred": true
+    },
+    {
+      "frame": 480,
+      "touch_occurred": true
+    },
+    {
+      "frame": 490,
+      "touch_occurred": false
+    },
+    {
+      "frame": 500,
+      "touch_occurred": false
+    },
+    {
+      "frame": 510,
+      "touch_occurred": false
+    },
+    {
+      "frame": 520,
+      "touch_occurred": false
+    },
+    {
+      "frame": 530,
+      "touch_occurred": false
+    },
+    {
+      "frame": 540,
+      "touch_occurred": false
+    },
+    {
+      "frame": 550,
+      "touch_occurred": false
+    },
+    {
+      "frame": 560,
+      "touch_occurred": false
+    },
+    {
+      "frame": 570,
+      "touch_occurred": false
+    },
+    {
+      "frame": 580,
+      "touch_occurred": false
+    },
+    {
+      "frame": 590,
+      "touch_occurred": false
+    },
+    {
+      "frame": 600,
+      "touch_occurred": false
+    },
+    {
+      "frame": 610,
+      "touch_occurred": false
+    },
+    {
+      "frame": 620,
+      "touch_occurred": false
+    },
+    {
+      "frame": 630,
+      "touch_occurred": false
+    },
+    {
+      "frame": 640,
+      "touch_occurred": false
+    },
+    {
+      "frame": 650,
+      "touch_occurred": false
+    },
+    {
+      "frame": 660,
+      "touch_occurred": false
+    },
+    {
+      "frame": 670,
+      "touch_occurred": false
+    },
+    {
+      "frame": 680,
+      "touch_occurred": false
+    },
+    {
+      "frame": 690,
+      "touch_occurred": false
+    },
+    {
+      "frame": 700,
+      "touch_occurred": false
+    },
+    {
+      "frame": 710,
+      "touch_occurred": false
+    },
+    {
+      "frame": 720,
+      "touch_occurred": false
+    },
+    {
+      "frame": 730,
+      "touch_occurred": false
+    },
+    {
+      "frame": 740,
+      "touch_occurred": false
+    },
+    {
+      "frame": 750,
+      "touch_occurred": false
+    },
+    {
+      "frame": 760,
+      "touch_occurred": false
+    },
+    {
+      "frame": 770,
+      "touch_occurred": false
+    },
+    {
+      "frame": 780,
+      "touch_occurred": true
+    },
+    {
+      "frame": 790,
+      "touch_occurred": true
+    },
+    {
+      "frame": 800,
+      "touch_occurred": true
+    },
+    {
+      "frame": 810,
+      "touch_occurred": true
+    },
+    {
+      "frame": 820,
+      "touch_occurred": false
+    },
+    {
+      "frame": 830,
+      "touch_occurred": false
+    },
+    {
+      "frame": 840,
+      "touch_occurred": false
+    },
+    {
+      "frame": 850,
+      "touch_occurred": false
+    },
+    {
+      "frame": 860,
+      "touch_occurred": false
+    },
+    {
+      "frame": 870,
+      "touch_occurred": false
+    },
+    {
+      "frame": 880,
+      "touch_occurred": false
+    },
+    {
+      "frame": 890,
+      "touch_occurred": false
+    },
+    {
+      "frame": 900,
+      "touch_occurred": false
+    },
+    {
+      "frame": 910,
+      "touch_occurred": false
+    },
+    {
+      "frame": 920,
+      "touch_occurred": true
+    },
+    {
+      "frame": 930,
+      "touch_occurred": false
+    },
+    {
+      "frame": 940,
+      "touch_occurred": true
+    },
+    {
+      "frame": 950,
+      "touch_occurred": true
+    },
+    {
+      "frame": 960,
+      "touch_occurred": true
+    },
+    {
+      "frame": 970,
+      "touch_occurred": true
+    },
+    {
+      "frame": 980,
+      "touch_occurred": false
+    },
+    {
+      "frame": 990,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1000,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1010,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1020,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1030,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1040,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1050,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1060,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1070,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1080,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1090,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1100,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1110,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1120,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1130,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1140,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1150,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1160,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1170,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1180,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1190,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1200,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1210,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1220,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1230,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1240,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1250,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1260,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1270,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1280,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1290,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1300,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1310,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1320,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1330,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1340,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1350,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1360,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1370,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1380,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1390,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1400,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1410,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1420,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1430,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1440,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1450,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1460,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1470,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1480,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1490,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1500,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1510,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1520,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1530,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1540,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1550,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1560,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1570,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1580,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1590,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1600,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1610,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1620,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1630,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1640,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1650,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1660,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1670,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1680,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1690,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1700,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1710,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1720,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1730,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1740,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1750,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1760,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1770,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1780,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1790,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1800,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1810,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1820,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1830,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1840,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1850,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1860,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1870,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1880,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1890,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1900,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1910,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1920,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1930,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1940,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1950,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1960,
+      "touch_occurred": true
+    },
+    {
+      "frame": 1970,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1980,
+      "touch_occurred": false
+    },
+    {
+      "frame": 1990,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2000,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2010,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2020,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2030,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2040,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2050,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2060,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2070,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2080,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2090,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2100,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2110,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2120,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2130,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2140,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2150,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2160,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2170,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2180,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2190,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2200,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2210,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2220,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2230,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2240,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2250,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2260,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2270,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2280,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2290,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2300,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2310,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2320,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2330,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2340,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2350,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2360,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2370,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2380,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2390,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2400,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2410,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2420,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2430,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2440,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2450,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2460,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2470,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2480,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2490,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2500,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2510,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2520,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2530,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2540,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2550,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2560,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2570,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2580,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2590,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2600,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2610,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2620,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2630,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2640,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2650,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2660,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2670,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2680,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2690,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2700,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2710,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2720,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2730,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2740,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2750,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2760,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2770,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2780,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2790,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2800,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2810,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2820,
+      "touch_occurred": false
+    },
+    {
+      "frame": 2830,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2840,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2850,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2860,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2870,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2880,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2890,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2900,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2910,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2920,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2930,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2940,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2950,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2960,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2970,
+      "touch_occurred": true
+    },
+    {
+      "frame": 2980,
+      "touch_occurred": true
+    }
+  ]
+}

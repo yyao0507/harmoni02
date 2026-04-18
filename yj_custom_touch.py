@@ -64,106 +64,6 @@ def cal_child_parent_score(kpts3d, frame, x, y, w_box, h_box, classifier, cls_tr
     return score_child, score_adult
 
 
-def update_person_label(tmp_info, score_hist, label_lock, stable_count, hard_lock, thr=0.6):
-    # ----------------------------------------
-    # 5.4.1 单人场景：先看滑动窗口，如果足够稳才锁定
-    # ----------------------------------------
-    if len(tmp_info) == 1:
-        tid, bbox, k3d, old_label, sc, sa, corresponding_2d, head_box = tmp_info[0]
-        if hard_lock.get(tid, False):
-            # 既然已经硬锁定，就直接使用 label_lock[tid]，不再计算滑窗
-            label = label_lock[tid]
-        else:
-            if old_label is None:
-                # 查看滑动窗口里 child_score 的比例
-                hist = list(score_hist.get(tid, []))
-                if len(hist) >= 10:
-                    child_frac = sum(1 for v in hist if v > thr) / len(hist)
-
-                   
-                    if child_frac > 0.5:
-                        label_lock[tid] = 'child'
-                    elif (1 - child_frac) > 0.5:
-                        label_lock[tid] = 'adult'
-                    else:
-                        label_lock[tid] = None # 先不决定
-                else:
-                    label_lock[tid] = None # 数据不足，先不决定
-                label = label_lock[tid]
-            else:
-                label = old_label
-        tmp_info[0] = (tid, bbox, k3d, label, sc, sa, corresponding_2d, head_box)
-    # ----------------------------------------
-    # 5.4.2 多人场景：优先保留已有 child，其次滑窗 + 差距筛选锁定
-    # ----------------------------------------
-    else:
-        num = len(tmp_info)
-        # 先收集已经锁定的 child / adult
-        locked_children = []
-        locked_adults = []
-        for i, (tid, bbox, k3d, old_label, sc, sa, corresponding_2d, head_box) in enumerate(tmp_info):
-            if label_lock.get(tid) == 'child':
-                locked_children.append(i)
-            elif label_lock.get(tid) == 'adult':
-                locked_adults.append(i)
-        if locked_children:
-            # 在所有已锁 child 里，选一个最可能的
-            best_score = -1
-            best_idx = locked_children[0]
-            for i in locked_children:
-                tid, bbox, k3d, old_label, sc, sa, corresponding_2d, head_box = tmp_info[i]
-                hist = list(score_hist.get(tid, []))
-                if len(hist) >= 10:
-                    child_frac = sum(1 for v in hist if v > thr) / len(hist)
-                else:
-                    child_frac = sc
-                # 先比滑窗 child_frac，再比当帧 sc
-                if (child_frac, sc) > (best_score, tmp_info[best_idx][4]):
-                    best_score = child_frac
-                    best_idx = i
-        else:
-            # 没有锁成 child，但若有锁成 adult 的，就剔除这些 adult
-            if locked_adults:
-                candidates = [i for i in range(num) if i not in locked_adults]
-            else:
-                # 完全没锁过，所有人都是候选
-                candidates = list(range(num))
-               
-            if not candidates:
-                candidates = list(locked_adults)
-               
-            # 从 candidates 中选一个最可能是 child 的
-            best_score = -1
-
-            best_idx = candidates[0]
-            for i in candidates:
-                tid, bbox, k3d, old_label, sc, sa, corresponding_2d, head_box = tmp_info[i]
-                hist = list(score_hist.get(tid, []))
-                if len(hist) >= 10:
-                    child_frac = sum(1 for v in hist if v > thr) / len(hist)
-                else:
-                    child_frac = sc
-                # 先比滑窗 child_frac，再比当帧 sc
-                if (child_frac, sc) > (best_score, tmp_info[best_idx][4]):
-                    best_score = child_frac
-                    best_idx = i
-        # 最终锁定：best_idx 为 child，其它都是 adult
-        for i, (tid, bbox, k3d, old_label, sc, sa, corresponding_2d, head_box) in enumerate(tmp_info):
-            if hard_lock.get(tid, False):
-                # 硬锁后绝不改变
-                label_here = label_lock[tid]
-            else:
-                new_label = 'child' if i == best_idx else 'adult'
-                # 只有真正切换时才清零 stable_count
-                if label_lock.get(tid) != new_label:
-                    stable_count[tid] = 0
-                label_lock[tid] = new_label
-                label_here = new_label
-            tmp_info[i] = (tid, bbox, k3d, label_here, sc, sa, corresponding_2d, head_box)
-    
-    return tmp_info, label_lock, stable_count, hard_lock
-
-
 
 def parse_args():
     parser = ArgumentParser()
@@ -669,8 +569,6 @@ def main():
                 # 如果 tid 已经有锁定标签，就带上旧标签；否则先暂不决定（后续锁定逻辑再更新）
                 old_label = label_lock.get(tid, None)
                 print(f"tid:{tid}, old_label:{old_label}, score_child:{score_child}, score_adult:{score_adult}")
-
-                # 5. 将数据打包进 tmp_info，交给后面的 update_person_label 做全局/时序决策
                 tmp_info.append((
                     tid, 
                     (x, y, w_box, h_box), 
