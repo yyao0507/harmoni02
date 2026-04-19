@@ -1,0 +1,1 @@
+The original SMIL config has issues on its path
