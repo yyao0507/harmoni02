@@ -34,11 +34,15 @@ The main entry point for execution is yy_dynamic_touch_pipeline_rep.py.
 
 Basic Execution Example (using DAPA):
 ```bash
-python yy_dynamic_touch_pipeline_rep.py \
+mkdir -p ./data/input_images ffmpeg -i your_video.mp4 -q:v 2 ./data/input_images/%06d.jpg  python yy_dynamic_touch_pipeline_rep.py \
     --images ./data/input_images \
     --out_folder ./data/outputs \
     --hps dapa \
     --batch_size 16
+
+Or,
+```bash
+ffmpeg -i your_video.mp4 -r 30 -q:v 2 ./data/input_images/%06d.jpg
 
 ## Related Resources
 We borrowed code from the below amazing resources:
