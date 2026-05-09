@@ -1,136 +1,44 @@
-# HARMONI: Using 3D Computer Vision and Audio Analysis to Quantify Caregiver–Child Behavior and Interaction from Videos
+# Harmoni Baseline: Dynamic Touch Pipeline
 
-## Repository Overview
-- [System requirements and installation Guide](#installation)
-- [Download dependency data](#installation)
-- [Demo on a video clip](#running-harmoni-visual-mdoel-on-a-demo-video)
-- [Demo on a audio clip](#running-harmoni-audio-model-on-example-data)
-- [Code structure](#code-structure)
-- [Related resources](#related-resources)
-- [Contact](#contact)
+## Introduction
+This project provides a baseline pipeline to reproduce and evaluate dynamic touch between an infant and an adult (Dyad) based on images/videos. By combining 3D human body reconstruction techniques with temporal smoothing algorithms, this pipeline estimates the 3D poses and meshes of the adult and infant in the scene separately, and calculates the final interactive touch labels using multi-dimensional spatial distances.
 
+## Pipeline Overview
+The core implementation of the entire project is encapsulated in the DynamicTouchPipeline class, which mainly consists of the following three execution stages:
 
-## Installation
-Tested on a linux machine with a single NVIDIA TITAN RTX GPU.
+1. Stage 1: 3D Body Fitting
+   - Basic Prediction: Supports extracting adult SMPL model parameters and infant SMIL model parameters using DAPA or CLIFF (HR48) networks.
+   - Alignment & Optimization: The TemporalSMPLify module can be optionally enabled. This module uses upstream 2D keypoints to perform backward iterative optimization, further aligning the 3D mesh with the actual image performance.
+2. Stage 2: Temporal Smoothing
+   - Introduces the OneEuroFilter. After completing the 3D fitting, it applies smoothing to the predicted body_pose, global_orient, and spatial translation (transl) of both the adult and infant to ensure the coherence of the motion sequence and eliminate jitter caused by frame-by-frame reconstruction.
+3. Stage 3: Touch Label Calculation
+   - For valid adult-infant dyads, the pipeline extracts their joint coordinates in both 3D space and the 2D projection plane. The final touch status is output by comparing the shortest distance between joints against predefined thresholds.
 
-OS version is Ubuntu 20.04.4 LTS. CUDA version: 11.3. Python version 3.9.
-1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html), and then install the packages. 
+## Touch Detection Rules
+In calculate_touch_labels, the touch labels are primarily determined by the following hard thresholds:
+
+- 2D Threshold Criterion (TOUCH_THRESH_2D_RATIO = 0.03): First, it calculates the Euclidean distance of the target joints on the 2D plane. If the minimum 2D distance is greater than 3% of the image height, it is preliminarily judged as No Touch.
+- 3D Threshold Criterion (TOUCH_THRESH_3D = 0.25): If the 2D touch condition is met, it further checks the minimum distance of the 3D joints in space. If the 3D distance > 0.25 meters, it is considered No Touch; otherwise, it is judged as Touch.
+- Output Definitions:
+  - 0 / 1: Binary classification results for dynamic touch (1 means far distance/no touch, 0 means close distance/touch).
+  - 2: There is no valid adult or infant detection in the current frame (e.g., missing at least 4 2D keypoints), making it impossible to form a valid Dyad.
+
+## Dependencies
+- Python >= 3.7
+- PyTorch (CUDA environment recommended for GPU inference)
+- numpy, joblib, torchgeometry
+- Pre-trained Models: You need to download and place the SMPL/SMIL mean parameter templates and the DAPA/CLIFF model weights in advance (see constants.py for specific paths).
+
+## Usage
+The main entry point for execution is yy_dynamic_touch_pipeline_rep.py.
+
+Basic Execution Example (using DAPA):
 ```bash
-conda create -n harmoni_visual python==3.9
-conda activate harmoni_visual
-./install_visual.sh
-```
-To install environment for the audio part, please do
-```
-cd audio
-conda env create -f process_audio.yml
-conda activate process_audio
-```
-Installation for either visual or audio model should be around 5 to 10 minutes.
-
-2. Download data folder that includes model checkpoints and other dependencies [here](https://drive.google.com/drive/u/2/folders/1vMZl8CTf1-LUv6x1J_yHpYWU-IhPLQQL).
-Note (Sept26,2025): Due to licensing requirements we cannot provide SMPL models. Please download from their websites instead [SMIL](https://www.iosb.fraunhofer.de/en/competences/image-exploitation/object-recognition/sensor-networks/motion-analysis.html), [SMPL/SMPLX](https://www.google.com/search?client=safari&rls=en&q=smpl+body+model&ie=UTF-8&oe=UTF-8).
-For reference, the folder structure looks like this
-```
-(base) zweng@Mac data % ls -R body_models
-gmm_08.pkl		smil_packed_info.pth	smpl_mean_params.npz
-smil			smpl			smplx
-
-body_models/smil:
-readme.txt		SMPL_FEMALE.pkl		SMPL_MALE.pkl		SMPL_NEUTRAL.pkl
-
-body_models/smpl:
-__init__.py		SMPL_FEMALE.pkl		SMPL_MALE.pkl		SMPL_NEUTRAL.pkl	smpl_webuser
-
-body_models/smpl/smpl_webuser:
-__init__.py		lbs.py			posemapper.py		serialization.py
-hello_world		LICENSE.txt		README.txt		verts.py
-
-body_models/smpl/smpl_webuser/hello_world:
-hello_smpl.py	render_smpl.py
-
-body_models/smplx:
-SMPL_NEUTRAL.pkl	version.txt
-```
-Note: to generate the `SMPLA_{gender}.pth` files follow the instructions [here](https://github.com/Arthur151/ROMP/blob/a8558aed480af850756f84e2a7c787e359bddbd0/docs/installation.md#3-preparing-smpl-model-files).
-
-4. We provide the example output from public video clips. You could download them [here](https://drive.google.com/drive/u/2/folders/13B6j3Px0nfxt_CCMqGksEAGm4f_dRHGo).
-
-Visualization of the example clip.
-<p float="center">
-  <img src="teasers/video_repeated.gif" width="50%" />
-</p>
-Please see below for instructions for reproducing the visual results.
-
-## Running HARMONI visual model on a demo video
-Here we show how to run HARMONI on a public video [clip](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzl4ZG10d3lhbGMxc2E1OTVrdHU1emo0YXYwcGtsbDV1NG5uaDdqdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5pK2Rs57ZCACAh8Fxs/giphy.gif). A basic command would be
-```bash
-python main.py --config data/cfgs/harmoni.yaml --video data/demo/giphy.gif --out_folder ./results/giphy --keep contains_only_both --save_gif
-```
-To reproduce the provided results, please use the below two commands instead.
-### Some configurations that significantly improves the reconstruction quality:
-1. Using the detected ground plane as additional constraint (`--ground_constraint`). 
-As in [Ugrinovic et al.](https://github.com/nicolasugrinovic/size_depth_disambiguation/tree/d4787668131298de5bc47efaea9aad4f15f3f93d), ground normal is estimated by fitting a plane to the floor depth points, and then `--ground_anchor` ("child_bottom" | "adult_bottom") speficies whether we use the mean ankle positions of children or adults as the anchor point for the ground plane. Then, we run optimization on all humans and encourage their ankles to be on the ground plane.
-
-2. Overwrite the classified tracks.
-It is hard to have a model to accurately predict whether a detected human is adult or child, so we allow the user to overwrite the predicted body types. For example, we can first run the command with `--dryrun` to run the body type classifition for each track. The results are written to `./results/giphy/sampled_tracks`.
-```bash
-python main.py --config data/cfgs/harmoni.yaml --video data/demo/giphy.gif --out_folder ./results/giphy --dryrun
-```
-Then, we can run it again with the tracks we want to overwrite. e.g. `--track_overwrite "{2: 'infant', 11: 'infant'}"`.
-```bash
-python main.py --config data/cfgs/harmoni.yaml --video data/demo/giphy.gif --out_folder ./results/giphy --keep contains_only_both --ground_anchor child_bottom --save_gif --track_overwrite "{2: 'infant', 11: 'infant'}"
-```
-If turn on the `--add_downstream` flag, the downstream stats will be overlayed to the results. E.g. 
-
-<p float="center">
-  <img src="teasers/video_with_labels_repeated.gif" width="50%" />
-</p>
-
-### Run time
-For this 60 frame video clip, the typical run time on a single NVIDIA TITAN RTX GPU is 20 seconds for the body pose estimation (excluding data preprocessing and rendering). 
-Data preprocessing (i.e. runnign OpenPose, ground normal estimation, etc) took 2 minutes. Rendering took 1 sec/frame.
-
-## Running HARMONI audio model on example data
-Before you run this, make sure to follow the additional installation instructions in `audio/README.md` and rebuild the x-vector extractor file.
-
-Here, we show the result on a publicly available demo [video](https://bergelsonlab.com/seedlings/). Please download and put it in `data/demo/seedlings.mp4`.
-```
-cd audio
-python run.py ../data/demo/seedlings.mp4 ../results/seedlings/
-```
-
-## Code structure
-```bash
-- preprocess # code for preprocessing: downsample, shot detection, ground plane estimation
-- trackers # tracking
-- detectors  # e.g. openpose, midas, body type classifier
-- hps # human pose and shape models. e.g. DAPA
-- postprocess  # code for refinement. e.g. SMPLify, One Euro Filter.
-- visualization  # renderers and helpers for visualization
-- downstream # code for downstream analysis
-- audio # audio code
-- data
-    - cfgs  # configurations
-    - demo  # a short demo video
-    - body_models
-        - SMPL
-        - SMIL
-        - SMPLX
-    - ckpts # model checkpoints
-- _DATA # data for running PHALP. It should be downloaded automatically.
-```
-
-Output folder structure
-```bash
-- openpose
-- sampled_tracks
-- render
-- results.pkl
-- dataset.pkl
-- result.mp4  # if --save_video is on
-- result.gif  # if --save_gif is on
-```
+python yy_dynamic_touch_pipeline_rep.py \
+    --images ./data/input_images \
+    --out_folder ./data/outputs \
+    --hps dapa \
+    --batch_size 16
 
 ## Related Resources
 We borrowed code from the below amazing resources:
@@ -142,21 +50,4 @@ We borrowed code from the below amazing resources:
 - [OpenPose](https://github.com/Hzzone/pytorch-openpose) for 2D keypoint estimation.
 
 
-## Contact
-[Zhenzhen Weng](https://zzweng.github.io/) (zzweng AT stanford DOT edu)
 
-## Citation
-If you find this work useful, please consider citing:
-```
-@article{
-weng2025harmoni,
-author = {Zhenzhen Weng  and Laura Bravo-S\'anchez  and Zeyu Wang  and Christopher Howard  and Maria Xenochristou  and Nicole Meister  and Angjoo Kanazawa  and Arnold Milstein  and Elika Bergelson  and Kathryn L. Humphreys  and Lee M. Sanders  and Serena Yeung-Levy },
-title = {Artificial intelligence–powered 3D analysis of video-based caregiver-child interactions},
-journal = {Science Advances},
-volume = {11},
-number = {8},
-pages = {eadp4422},
-year = {2025},
-doi = {10.1126/sciadv.adp4422},
-URL = {https://www.science.org/doi/abs/10.1126/sciadv.adp4422}}
-```
