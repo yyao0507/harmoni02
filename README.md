@@ -41,7 +41,6 @@ mkdir -p ./data/input_images ffmpeg -i your_video.mp4 -q:v 2 ./data/input_images
     --batch_size 16
 
 Or,
-```bash
 ffmpeg -i your_video.mp4 -r 30 -q:v 2 ./data/input_images/%06d.jpg
 
 ## Related Resources
