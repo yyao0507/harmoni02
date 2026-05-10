@@ -1,6 +1,6 @@
 # HARMONI 精简 Pipeline
 
-本目录在 HARMONI 仓库内提供一条**可配置的**处理链：视频抽帧、与论文一致的 **touch / visibility 几何**（见 `downstream/calc_downstream.py`）、以及可选的**官方预处理 / 全量 `main.py`**。编排逻辑集中在 **`pipeline.py`**；各步骤在需要时才 `import` 同目录模块或父仓库模块。
+本目录在 HARMONI 仓库内提供一条**可配置的**处理链：视频抽帧、与论文一致的 **touch / visibility 几何**（见 `downstream/calc_downstream.py`）、以及可选的**官方预处理 / 全量 `main.py`**。编排逻辑集中在 **`pipeline.py`**。
 
 ## 目录结构
 
